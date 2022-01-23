@@ -675,7 +675,6 @@ div.project-summary p:not(p.title) {
     fill: #9683bb;
 }
 
-
 .stack-img figure {
     display: flex;
     flex-direction: column;
@@ -886,6 +885,10 @@ li.g4g-pa {
 
 div.gfg-btn-alt {
     background-color: #20212b;
+}
+
+.md-img {
+    margin: 28px auto auto;
 }
 
 .palette {
@@ -1241,7 +1244,6 @@ span.lg-feature {
 
     .md-img {
         width: 800px;
-        margin: 24px auto auto;
     }
 
     /* eTools project page */
