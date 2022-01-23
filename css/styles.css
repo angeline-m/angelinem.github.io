@@ -1239,6 +1239,11 @@ span.lg-feature {
         object-fit: contain;
     }
 
+    .md-img {
+        width: 800px;
+        margin: 24px auto auto;
+    }
+
     /* eTools project page */
 
     .small-img {
