@@ -318,9 +318,16 @@ footer i:hover {
 
 .my-info img {
     flex-shrink: 1;
-    max-width: 100%;
+    display: block;
     border-radius: 50%;
-    /* box-shadow: 0 0 0 0 rgb(174, 158, 205);
+    height: 400px;
+    width: 400px;
+    min-width: 400px;
+    object-fit: cover;
+    object-position: center 27%;
+    /* transition: width 1s ease;
+    transition: height 1s ease;
+    box-shadow: 0 0 0 0 rgb(174, 158, 205);
     -webkit-box-shadow: 0 0 0 0 rgb(174, 158, 205);
     -moz-box-shadow: 0 0 0 0 rgb(174, 158, 205);
     animation: beat 1.5s infinite; */
@@ -1027,10 +1034,6 @@ span.lg-feature {
         flex-direction: row;
     }
 
-    .my-info img {
-        max-width: 500px;
-    }
-
     /* Contact page styles */
 
     .contact-info {
@@ -1194,6 +1197,13 @@ span.lg-feature {
 
     .menu-btn {
         display: none;
+    }
+
+    /* About page styles */
+    .my-info img {
+        height: 500px;
+        width: 500px;
+        min-width: 500px;
     }
 
     /* Give for Good page */
