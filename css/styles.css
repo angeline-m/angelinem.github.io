@@ -113,7 +113,6 @@ a.highlight:hover {
 /* Header Styles */
 
 header {
-    display: fixed;
     background-color: var(--white);
     box-shadow: 1px 1px 10px 1px rgba(49,49,49,0.14);
     -webkit-box-shadow: 1px 1px 10px 1px rgba(49,49,49,0.14);
